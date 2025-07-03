@@ -15,4 +15,5 @@ app.use('/', router);
 
 app.listen(port || 8080, () => {
     console.log(`Listening on port ${port}`);
+    console.log(`Documentation: http://localhost:${port}/api-docs`);
 });
